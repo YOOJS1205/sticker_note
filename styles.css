@@ -1,0 +1,42 @@
+.create {
+    padding: 10px;
+}
+
+.input {
+    width: 300px;
+    height: 200px;
+    border: 3px solid lightcoral;
+    border-radius: 10px;
+}
+
+.input:focus {
+    border-color: hotpink;
+}
+
+.add {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    vertical-align: 10px;
+    margin-left: 10px;
+}
+
+.add:hover {
+    background-color: lightcoral;
+    color: #ffffff;
+    border: none;
+}
+
+.lists {
+    display: flex;
+}
+
+.list {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px 10px;
+}
